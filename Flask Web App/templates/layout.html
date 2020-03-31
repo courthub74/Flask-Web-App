@@ -5,7 +5,13 @@
 
 <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles5.css') }}">
 
-<!--The NAVBAR-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Entry</title>
+</head>
+<body>
+    <!--The NAVBAR-->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Cruise Inc</a>
@@ -18,12 +24,12 @@
 
       <!--HEEEEEREEE-->
       <li class="nav-item active">
-        <a class="nav-link" href="#">EntryPage<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{url_for('home') }}">EntryPage<span class="sr-only">(current)</span></a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="#">2Page</a>
+        <a class="nav-link" href="{{url_for('two') }}">2Page</a>
       </li>
      
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,6 +47,8 @@
     </form>
   </div>
 </nav>
+
+
 
 
 
@@ -114,11 +122,11 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
-        Check me out
+        Remember Me
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
+  <button type="submit" class="btn btn-primary">Submit Info</button>
 </form>
 
 
@@ -144,6 +152,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
+</body>
+</html>
+
+
 </html>
 
 
